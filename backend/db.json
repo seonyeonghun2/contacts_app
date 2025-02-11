@@ -23,6 +23,14 @@
       "memo": "같은 소속 부서원",
       "gender": "woman",
       "job": "회사원"
+    },
+    {
+      "id": "80c2",
+      "name": "유관순",
+      "mobile": "021235555",
+      "memo": "후배",
+      "gender": "woman",
+      "job": "학생"
     }
   ]
 }
