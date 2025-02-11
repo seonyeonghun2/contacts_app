@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연락처 앱</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <header>
+        <h1>연락처 등록</h1>
+    </header>
+    <main>
+        <form method="post" autocomplete="off" id="create_form">
+            <fieldset>
+                <legend>create contact</legend>
+                <div>
+                    <label for="name">이름</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="mobile">전화번호</label>
+                    <input type="tel" name="mobile" id="mobile">
+                </div>
+                <div>
+                    <label for="memo">메모</label>
+                    <input type="text" name="memo" id="memo">
+                </div>
+                <div>
+                    <label for="gender">성별</label>
+                    <select id="gender" name="gender">
+                        <option value="man">남성</option>
+                        <option value="woman">여성</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="job">하는일</label>
+                    <input type="text" name="job" id="job">
+                </div>
+                <input type="submit" value="등록">
+            </fieldset>
+        </form>
+    </main>
+    <script src="create.js"></script>
+</body>
+</html>
