@@ -1,0 +1,17 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+form {
+    max-width: 600px;
+    margin: 0 auto
+}
+fieldset {
+    border: 0
+}
+
+legend {
+    display: none
+}

@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+.d-flex {
+    display: flex
+}
+.box {
+    width: 600px;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    padding: 1rem;
+    margin-bottom: 2rem;    
+    border-radius: 10px;
+    box-sizing: border-box
+}
+#contacts_list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.flex-1 {
+    flex: 1
+}
+.flex-2 {
+    flex: 2
+}
+.gap-1 {
+    gap: 1rem
+}
+.mb-0 {
+    margin-bottom: 0
+}
+
+.btn {
+    padding: .5rem 1rem;
+    margin: .25rem
+}
+.text-center {
+    text-align: center
+}
+.info {
+    margin-left: 1rem
+}
+.align-center {
+    align-items: center
+}
+
+figure {
+    text-align: center
+}
+figcaption {
+    display: none
+}
+.remove {
+    background-color: #c72727;
+    border-color: #c72727;
+}
+.edit {
+    background-color: #f99500;
+    border-color: #f99500;
+}
+.sms {
+    background-color: #133337;
+    border-color: #133337;
+}
