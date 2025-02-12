@@ -25,13 +25,13 @@ async function logJSONData(url) {
                 <figcaption>${data.name}</figcaption>
             </figure>
             <ul class="info flex-2">
-                <li>이름 : ${data.name}</li>
-                <li>전화번호 : ${data.mobile}</li>
-                <li>메모: ${data.memo}</li>
-                <li>하는일 : ${data.job}</li>
+                <li>${data.name}</li>
+                <li>${data.mobile}</li>
+                <li>${data.memo}</li>
+                <li>${data.job}</li>
             </ul>
             <div class="btns flex-2 text-center">
-                <button type="button" class="btn edit"><img src="images/edit.png" width="24" alt="수정"></button>
+                <button type="button" class="btn edit" onclick="alert('정보수정화면으로 이동합니다');location.href='https://www.naver.com'"><img src="images/edit.png" width="24" alt="수정"></button>
                 <button type="button" class="btn remove"><img src="images/remove.png" width="24" alt="삭제"></button>
                 <button type="button" class="btn sms"><img src="images/sms.png" width="24" alt="문자전송"></button>
                 <button type="button" class="btn call"><img src="images/call.png" width="24" alt="전화걸기"></button>
